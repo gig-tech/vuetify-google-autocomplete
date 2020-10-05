@@ -39,6 +39,8 @@
       :tabindex="tabindex"
       :textarea="textarea"
       :toggle-keys="toggleKeys"
+      :outlined="outlined"
+      :dense="outlined"      
       type="text"
       :validate-on-blur="validateOnBlur"
       v-model="autocompleteText"
@@ -54,6 +56,14 @@
         name: 'VuetifyGoogleAutocomplete',
 
         props: {
+          dense: {
+            type: Boolean,
+            default: false,
+          },
+          outlined: {
+            type: Boolean,
+            default: false,
+          },          
           appendIcon: {
             type: String,
             default: null,

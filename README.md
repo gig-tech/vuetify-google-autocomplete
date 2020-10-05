@@ -73,6 +73,18 @@ Type: `String`
 
 `required` ID for the input container.
 
+#### dense
+Type: `Boolean`
+Default: false
+
+Reduces the input height
+
+#### outlined
+Type: `Boolean`
+Default: false
+
+Applies the outlined style to the input
+
 #### append-icon
 Type: `String`
 Default: `null`
